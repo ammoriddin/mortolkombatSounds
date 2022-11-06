@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../mortalkombat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn{
+    background-color: black;
+    margin: 10px;
+    color: rgb(255, 102, 0);
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1 b{
+    font-size: 50px;
+    text-shadow: 2px 2px 20px rgb(255, 0, 0);
+    color: rgb(255, 102, 0);
+}
+
+h1 span{
+    font-size: 50px;
+    color: black;
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+.btn:focus{
+    outline: none;
+}
